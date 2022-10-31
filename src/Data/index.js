@@ -191,5 +191,33 @@ export const accountDetails = [
       }
     ]
   }
+];
+
+export const capitalData = [
+  {
+    title: 'Impressive Trading conditions',
+    description: `
+      From traders to traders, we all know the importance of trading conditions, 
+      and that is the reason why our Raw spread accounts in place can provide 
+      you with an outstanding environment where you can feel the taste of 
+      institutional grade trading, spreads starting from 0.0 pips.
+    `
+  },
+  {
+    title: 'Industry Leading Targets',
+    description: `
+      Our easily achievable Profit targets can allow you to succeed and 
+      comfortably reach your goals in life. We do not have Minimum 
+      Trading days and our consistent Bi-weekly payouts are 
+      also built to give you peace of mind.
+    `
+  },
+  {
+    title: 'Free Retry',
+    description: `
+      If you do not violate our Loss Limits and your account final balance 
+      is positive, you are entitled to a Free Retry. Free Retries are unlimited with us!
+    `
+  },
 ]
 

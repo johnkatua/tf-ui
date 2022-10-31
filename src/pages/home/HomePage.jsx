@@ -1,11 +1,13 @@
 import React from 'react'
 import Button from '../../components/ui/button/Button';
 import BenefitCard from '../../components/ui/cards/benefitscards/BenefitCard';
+import CapitalCard from '../../components/ui/cards/capitalcards/CapitalCard';
 import CurrencyCards from '../../components/ui/cards/currencycards/CurrencyCards';
 import ForexFundsCards from '../../components/ui/cards/forexFundCards/ForexFundsCards';
+import InTouchCard from '../../components/ui/cards/intouchcards/InTouchCard';
 import PhaseCard from '../../components/ui/cards/phasecards/PhaseCard';
 import FooterContainer from '../../components/ui/footer/FooterContainer';
-import { benefitsData, currency, forexFunds, phasesData } from '../../Data';
+import { benefitsData, currency, forexFunds, phasesData, capitalData } from '../../Data';
 import './home.css';
 
 const HomePage = () => {
@@ -112,9 +114,10 @@ const HomePage = () => {
               and our main goal is to find consistent and profitable traders for our ever-expanding community.
             </div>
             <div className='home--capital__card'>
+              <CapitalCard data={capitalData} />
+              {/* <div className="phases--card">Item</div>
               <div className="phases--card">Item</div>
-              <div className="phases--card">Item</div>
-              <div className="phases--card">Item</div>
+              <div className="phases--card">Item</div> */}
             </div>
           </div>
           <div className="home--intouch">
@@ -122,10 +125,11 @@ const HomePage = () => {
               Get in touch
             </div>
             <div className='home--intouch__card'>
+              <InTouchCard />
+              {/* <div className="intouch--card">Item</div>
               <div className="intouch--card">Item</div>
               <div className="intouch--card">Item</div>
-              <div className="intouch--card">Item</div>
-              <div className="intouch--card">Item</div>
+              <div className="intouch--card">Item</div> */}
             </div>
             <div className='home--intouch__footer'>
               <span>
