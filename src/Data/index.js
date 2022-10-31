@@ -186,8 +186,48 @@ export const accountDetails = [
     ],
     item2: [
       {
-        name: 'Phase 1',
-        title: 'Trading'
+        phase1: [
+          {
+            value: '30 days'
+          },
+          {
+            value: '$500'
+          },
+          {
+            value: '$1000'
+          },
+          {
+            value: '$800'
+          },
+        ],
+        phase2: [
+          {
+            value: '60 days'
+          },
+          {
+            value: '$500'
+          },
+          {
+            value: '$1000'
+          },
+          {
+            value: '$400'
+          },
+        ],
+        phase3: [
+          {
+            value: 'indifinite'
+          },
+          {
+            value: '$500'
+          },
+          {
+            value: '$1000'
+          },
+          {
+            value: 'x'
+          },
+        ]
       }
     ]
   }

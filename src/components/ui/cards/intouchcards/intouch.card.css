@@ -1,0 +1,9 @@
+.intouchi--card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: var(--lightGrey);
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}

@@ -19,16 +19,6 @@ const BenefitCard = ({ data }) => {
 
 BenefitCard.defaultProps = {
   data: [
-    // {
-    //   icon: <HiCurrencyDollar />
-    // },
-    // {
-    //   icon: <RiLayoutFill />
-    // },
-    // {
-    //   icon: <BiTime />
-    // },
-
     {
       icon: <HiCurrencyDollar />,
       title: 'High Profit Splits',
