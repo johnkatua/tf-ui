@@ -1,0 +1,29 @@
+.assistance--card__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--lightGrey);
+  height: 100px;
+  border-radius: 10px;
+  border: .2px solid rgba(24, 25, 28, 0.83);
+  gap: var(--mainGap);
+  padding: 0 20px;
+}
+
+.assistance--card__description {
+  flex: 1;
+}
+
+.assistance--left__icon {
+  display: flex;
+  align-items: center;
+}
+
+.assistance--right__icon {
+  display: flex;
+  align-items: center;
+}
+
+.assistance--right__icon:hover {
+  translate: 4px;
+}

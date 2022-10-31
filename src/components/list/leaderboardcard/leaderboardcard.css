@@ -1,0 +1,20 @@
+.leader--card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #241021;
+}
+
+.leader--card__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leader--card__item {
+  display: flex;
+  justify-content: space-between;
+}

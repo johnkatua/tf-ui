@@ -1,0 +1,444 @@
+.home--container {
+  background-color: aqua;
+}
+
+.home--image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(to left, rgba(7, 6, 9, 0) 10%,
+              rgba(40, 12, 25)), url(assets/home-hero.png);
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center;
+}
+
+.home--content {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.home--content__container {
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+}
+
+.home--description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 550px;
+  gap: var(--mainGap);
+  flex: wrap;
+}
+
+.home--description__title {
+  font-size: var(--fontSizeXLarge);
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.home--description__para {
+  font-size: var(--fontSizeMedium);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.home--finances__box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  gap: var(--smallGap);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  height: var(--smallCardHeight);
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}
+
+.home--forex__content {
+  display: flex;
+  gap: var(--smallGap);
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 60px;
+}
+
+.home--forex__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.home--forex__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+  /* flex: 1; */
+  gap: var(--mainGap);
+}
+
+.home--forex__title {
+  font-size: var(--fontSizeLarge);
+  letter-spacing: 1px;
+}
+
+.home--forex__description {
+  font-size: var(--fontSizeMedium);
+}
+
+.home--forex__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: var(--smallGap);
+}
+
+.home--benefits__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  height: 100%;
+  gap: var(--mainGap);
+  padding-top: 60px;
+}
+
+.home--benefits__title {
+  font-size: var(--fontSizeLarge);
+  letter-spacing: 1px;
+}
+
+.home--benefits__description {
+  font-size: var(--fontSizeMedium);
+  width: 80%;
+}
+
+.home--benefits__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--smallGap);
+}
+
+.benefits--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  height: 150px;
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}
+
+.home--phases__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  height: 100%;
+  gap: var(--mainGap);
+  padding-top: 60px;
+}
+
+.home--phases__title {
+  font-size: var(--fontSizeLarge);
+  letter-spacing: 1px;
+}
+
+.home--phases__description {
+  font-size: var(--fontSizeMedium);
+  width: 80%;
+}
+
+.home--phases__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--smallGap);
+}
+
+.phases--card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  height: 450px;
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}
+
+.phase--btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.home--accounts__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--mainGap);
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.home--accounts__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--smallGap);
+}
+
+.accounts-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  height: 320px;
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}
+
+.home--capital {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mainGap);
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.home--content__title {
+  font-size: var(--fontSizeLarge);
+  letter-spacing: 1px;
+}
+
+.home--content__description {
+  font-size: var(--fontSizeMedium);
+  width: 80%;
+}
+
+.home--capital__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--smallGap);
+}
+
+.home--intouch {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mainGap);
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  padding-top: var(--defaultMarginTop);
+}
+
+.home--intouch__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--smallGap);
+}
+
+.intouch--card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  height: 200px;
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+}
+
+.home--intouch__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--mainGap);
+  padding: 20px 0;
+  background-color: var(--lightGrey);
+  border-radius: 10px;
+  border: 1px solid rgb(33, 25, 25);
+}
+
+.home--intouch__footer span {
+  font-size: var(--fontSizeLarge);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .home--description {
+    margin-left: 2rem;
+    width: 50%;
+  }
+
+  .home--finances__box {
+    grid-template-columns: repeat(10, 200px);
+    overflow-x: scroll;
+    margin: 0 2rem;
+  }
+
+  .home--finances__box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home--forex__content {
+    margin: 0 2rem;
+  }
+
+  .home--benefits__content {
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+  .home--description {
+    width: 70%;
+    margin-left: 2rem;
+  }
+
+  .home--finances__box {
+    grid-template-columns: repeat(10, 200px);
+    overflow-x: scroll;
+    margin: 0 2rem;
+  }
+
+  .home--finances__box::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home--forex__details {
+    width: 100%;
+  }
+
+
+  .home--forex__content {
+    margin: 0 2rem;
+  }
+
+  .home--forex__title {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .home--forex__cards {
+    grid-template-columns: repeat(3, 200px);
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .home--forex__description {
+    flex-wrap: wrap;
+    font-size: var(--fontSizeSmall);
+  }
+
+  .home--forex__image {
+    display: none;
+  }
+
+  .home--benefits__content {
+    margin: 0 2rem;
+  }
+
+  .home--benefits__title {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .home--benefits__description {
+    font-size: var(--fontSizeSmall);
+  }
+
+  .home--benefits__card {
+    grid-template-columns: repeat(3, 250px);
+    overflow-x: scroll;
+  }
+
+  .home--phases__title {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .home--phases__description {
+    font-size: var(--fontSizeSmall);
+  }
+
+  .home--phases__card {
+    grid-template-columns: repeat(3, 350px);
+    overflow-x: scroll;
+  }
+
+  .home--accounts__card {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    overflow-x: scroll;
+    width: auto
+  }
+
+  .home--phases__card::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home--content__title {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .home--content__description {
+    font-size: var(--fontSizeSmall);
+  }
+
+  .home--capital__card {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    overflow-x: scroll;
+    gap: var(--smallGap);
+  }
+
+  .home--intouch__card {
+    grid-template-columns: repeat(4, 250px);
+    overflow-x: scroll;
+  }
+
+  .home--intouch__footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .home--phases__content {
+    margin: 0 2rem;
+  }
+
+  .home--accounts__content {
+    margin: 0 2rem;
+  }
+
+  .home--capital {
+    margin: 0 2rem;
+  }
+
+  .home--intouch {
+    margin: 0 2rem;
+  }
+}
