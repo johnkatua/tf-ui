@@ -14,8 +14,8 @@
 
 .leaderboard--header__title {
   font-size: var(--fontSizeLarge);
-  /* font-size: 72px; */
   background: -webkit-linear-gradient(45deg, #eee, #333);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

@@ -78,9 +78,6 @@ const HomePage = () => {
               </div>
               <div className='home--phases__card'>
                 <PhaseCard data={phasesData} />
-                {/* <div className="phases--card">Item</div>
-                <div className="phases--card">Item</div>
-                <div className="phases--card">Item</div> */}
               </div>
               <div className='phase--btn'>
                 <Button className={'home--btn'} text={'Get started'}/>

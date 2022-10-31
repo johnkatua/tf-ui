@@ -1,0 +1,51 @@
+.phase--card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--lightGrey);
+  height: 450px;
+  border-radius: 10px;
+  border: .2px solid rgb(33, 25, 25);
+  padding: 20px;
+}
+
+.phase--card__header {
+  display: flex;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.474);
+}
+
+.phase--header__title {
+  width: 60%;
+  height: 100%;
+}
+
+.phase--header__percentage {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  flex: 1;
+  color: rgba(6, 6, 250, 0.727);
+}
+
+.phase--percentage {
+  font-size: var(--fontSizeLarge);
+}
+
+.phase--card__body {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.phase--objectives {
+  margin-top: 5px;
+  padding: 10px 0;
+  height: 100%;
+  width: auto;
+}
+
+.phase--objectives__item {
+  display: flex;
+  align-items: center;
+  width: auto;
+}

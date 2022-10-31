@@ -148,5 +148,48 @@ export const phasesData = [
       },
     ]
   }
+];
+
+export const accountDetails = [
+  {
+    item1: [
+      {
+        currency: [
+          {
+            name: '$ USD'
+          },
+          {
+            name: 'EUR'
+          },
+          {
+            name: 'GBP'
+          },
+        ],
+        balance: [
+          {
+            value: '$10, 000'
+          },
+          {
+            value: '$25,000'
+          },
+          {
+            value: '$50,000'
+          },
+          {
+            value: '$100,000'
+          },
+          {
+            value: '$200,000'
+          },
+        ]
+      }
+    ],
+    item2: [
+      {
+        name: 'Phase 1',
+        title: 'Trading'
+      }
+    ]
+  }
 ]
 
