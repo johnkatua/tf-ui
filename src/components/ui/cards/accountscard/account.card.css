@@ -1,65 +1,93 @@
-.item {
-  background-color: aqua;
+.account--card__one {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 5);
+  border-radius: 10px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.account--card__currency {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.account--currency__body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.account--currency__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightGrey);
+  border-radius: 25px;
+  padding: 10px 0;
+}
+
+.account--card__balance {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.account--balance__body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.account--balance__item {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: var(--lightGrey);
+  border-radius: 25px;
 }
 
 .phase--card__two {
   display: flex;
   flex-direction: column;
-  background-color: rgb(133, 182, 182);
+  gap: 15px;
+  background-color: rgb(0, 0, 5);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .card--two__header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(225, 225, 47);
+  align-items: center;
+  border-bottom: 1px solid rgba(53, 53, 153, 0.261);
+  padding-bottom: 5px;
 }
 
 .card--two__body {
-  /* display: flex; */
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
 }
 
 .card--two__items {
   display: flex;
-  /* gap: 40px; */
   justify-content: space-between;
   align-self: center;
-  background-color: brown;
   margin: 2px;
+  width: 100%;
 }
 
 .card--two__name {
   display: flex;
   flex-direction: column;
-  background-color: burlywood;
-  /* flex: 1; */
   width: 25%;
-  /* border: 1px solid red; */
 }
 
 .test--card:nth-child(5) > .test--phase1{
-  background-color: rgb(213, 36, 36);
   flex: 1;
   border: 2px solid;
-  
-  display: flex;
-  /* grid-template-columns:  repeat(80, 1fr); */
   text-align: center;
-  /* padding-right: 2rem; */
-}
-
-.card--refund {
-  display: flex;
-}
-
-.card--refund__name {
-  background-color: lawngreen;
-  width: 25%;
-}
-
-.card--refund__btn {
-  display: flex;
-  justify-content: center;
-  background-color: lightgrey;
-  flex: 1;
 }

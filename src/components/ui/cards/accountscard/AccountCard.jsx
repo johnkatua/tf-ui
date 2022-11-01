@@ -6,24 +6,28 @@ const AccountCard = ({ data }) => {
     <>
       {data.map((item) => (
         <>
-          <div>
+          <div className='account--card__one'>
             {item.item1.map((item) => (
               <>
-                <div>
+                <div className='account--card__currency'>
                   Currency
+                  <div className='account--currency__body'>
                   {item.currency.map((item) => (
-                    <div>
-                      <div>{item.name}</div>
+                    <div className='account--currency__item'>
+                      {item.name}
                     </div>
                   ))}
+                  </div>
                 </div>
-                <div>
+                <div className='account--card__balance'>
                   Balance
-                  {item.balance.map((item) => (
-                    <div>
-                      <div>{item.value}</div>
-                    </div>
-                  ))}
+                  <div className='account--balance__body'>
+                    {item.balance.map((item) => (
+                      <div className='account--balance__item'>
+                        {item.value}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </>
             ))}
@@ -48,10 +52,6 @@ const AccountCard = ({ data }) => {
                       {item?.phase3 ? <div className='card--two__name'>{item.phase3}</div> : ""}
                     </div>
                   ))}
-                  {/* <div className='card--refund'>
-                    <div className='card--refund__name'>Refundable Fee</div>
-                    <div className='card--refund__btn'>Blah Blah</div>
-                  </div> */}
                   </>
                   </div>
               </>
