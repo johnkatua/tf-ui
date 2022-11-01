@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../components/ui/button/Button';
+import AccountCard from '../../components/ui/cards/accountscard/AccountCard';
 import BenefitCard from '../../components/ui/cards/benefitscards/BenefitCard';
 import CapitalCard from '../../components/ui/cards/capitalcards/CapitalCard';
 import CurrencyCards from '../../components/ui/cards/currencycards/CurrencyCards';
@@ -7,7 +8,7 @@ import ForexFundsCards from '../../components/ui/cards/forexFundCards/ForexFunds
 import InTouchCard from '../../components/ui/cards/intouchcards/InTouchCard';
 import PhaseCard from '../../components/ui/cards/phasecards/PhaseCard';
 import FooterContainer from '../../components/ui/footer/FooterContainer';
-import { benefitsData, currency, forexFunds, phasesData, capitalData } from '../../Data';
+import { benefitsData, currency, forexFunds, phasesData, capitalData, accountData } from '../../Data';
 import './home.css';
 
 const HomePage = () => {
@@ -95,8 +96,9 @@ const HomePage = () => {
                 Boost Your Career by Getting Funded
               </div>
               <div className='home--accounts__card'>
-                <div className="accounts-card">Item </div>
-                <div className="accounts-card">Item </div>
+                <AccountCard data={accountData} />
+                {/* <div className="accounts-card">Item </div>
+                <div className="accounts-card">Item </div> */}
               </div>
               <div className='phase--btn'>
                 <Button className={'home--btn'} text={'Get started'}/>
@@ -115,9 +117,6 @@ const HomePage = () => {
             </div>
             <div className='home--capital__card'>
               <CapitalCard data={capitalData} />
-              {/* <div className="phases--card">Item</div>
-              <div className="phases--card">Item</div>
-              <div className="phases--card">Item</div> */}
             </div>
           </div>
           <div className="home--intouch">
@@ -126,10 +125,6 @@ const HomePage = () => {
             </div>
             <div className='home--intouch__card'>
               <InTouchCard />
-              {/* <div className="intouch--card">Item</div>
-              <div className="intouch--card">Item</div>
-              <div className="intouch--card">Item</div>
-              <div className="intouch--card">Item</div> */}
             </div>
             <div className='home--intouch__footer'>
               <span>

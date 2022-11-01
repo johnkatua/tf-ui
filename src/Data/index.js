@@ -150,7 +150,7 @@ export const phasesData = [
   }
 ];
 
-export const accountDetails = [
+export const accountData = [
   {
     item1: [
       {
@@ -186,49 +186,97 @@ export const accountDetails = [
     ],
     item2: [
       {
-        phase1: [
+        tableHeadData: [
           {
-            value: '30 days'
+            name: ''
           },
           {
-            value: '$500'
+            name: 'Phase 1'
           },
           {
-            value: '$1000'
+            name: 'Phase 2'
           },
           {
-            value: '$800'
-          },
-        ],
-        phase2: [
-          {
-            value: '60 days'
-          },
-          {
-            value: '$500'
-          },
-          {
-            value: '$1000'
-          },
-          {
-            value: '$400'
+            name: 'Phase 3'
           },
         ],
-        phase3: [
+        tableData: [
           {
-            value: 'indifinite'
+            name: 'Trading Period',
+            phase1: '30 days',
+            phase2: '60 days',
+            phase3: 'indefinite'
           },
           {
-            value: '$500'
+            name: 'Max Daily Loss',
+            phase1: '$500',
+            phase2: '$500',
+            phase3: '$500'
           },
           {
-            value: '$1000'
+            name: 'Max Overall Loss',
+            phase1: '$1000',
+            phase2: '$1000',
+            phase3: '$1000'
           },
           {
-            value: 'x'
+            name: 'Profit Target',
+            phase1: '$800',
+            phase2: '$400',
+            phase3: 'x'
+          },
+          {
+            name: 'Refundable Fee',
+            // phase1: '',
+            phase2: 'john',
+            // phase3: ''
           },
         ]
       }
+      // {
+      //   phase1: [
+      //     {
+      //       tradingPeriod: '30 days'
+      //     },
+      //     {
+      //       maxDailyLoss: '$500'
+      //     },
+      //     {
+      //       maxOverallLoss: '$1000'
+      //     },
+      //     {
+      //       profitTarget: '$800'
+      //     },
+      //   ],
+      //   phase2: [
+      //     {
+      //       tradingPeriod: '60 days'
+      //     },
+      //     {
+      //       maxDailyLoss: '$500'
+      //     },
+      //     {
+      //       maxOverallLoss: '$1000'
+      //     },
+      //     {
+      //       profitTarget: '$400'
+      //     }
+      //   ],
+      //   phase3: [
+      //     {
+      //       tradingPeriod: 'indifinite'
+      //     },
+      //     {
+      //       maxDailyLoss: '$500'
+      //     },
+      //     {
+      //       maxOverallLoss: '$1000'
+      //     },
+      //     {
+      //       profitTarget: 'x'
+      //     }
+      //   ]
+      // }
     ]
   }
 ];

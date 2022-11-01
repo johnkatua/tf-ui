@@ -1,0 +1,65 @@
+.item {
+  background-color: aqua;
+}
+
+.phase--card__two {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(133, 182, 182);
+}
+
+.card--two__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(225, 225, 47);
+}
+
+.card--two__body {
+  /* display: flex; */
+  background-color: blueviolet;
+}
+
+.card--two__items {
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+  align-self: center;
+  background-color: brown;
+  margin: 2px;
+}
+
+.card--two__name {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  /* flex: 1; */
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.test--card:nth-child(5) > .test--phase1{
+  background-color: rgb(213, 36, 36);
+  flex: 1;
+  border: 2px solid;
+  
+  display: flex;
+  /* grid-template-columns:  repeat(80, 1fr); */
+  text-align: center;
+  /* padding-right: 2rem; */
+}
+
+.card--refund {
+  display: flex;
+}
+
+.card--refund__name {
+  background-color: lawngreen;
+  width: 25%;
+}
+
+.card--refund__btn {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  flex: 1;
+}
