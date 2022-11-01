@@ -1,16 +1,21 @@
 import { HiCurrencyDollar } from 'react-icons/hi';
 import { BiTime } from 'react-icons/bi';
 import { RiLayoutFill } from 'react-icons/ri';
+import './benefit.card.css';
+import { IconContext } from 'react-icons';
 
 const BenefitCard = ({ data }) => {
-  console.log(data)
   return (
     <>
       {data.map((item) => (
-        <div>
-          <div>{item.icon}</div>
-          <div>{item.title}</div>
-          <div>{item.description}</div>
+        <div className='benefit--card'>
+          <IconContext.Provider value={{ color: 'blue', size: '2.5em' }}>
+            <div>{item.icon}</div>
+          </IconContext.Provider>
+          <div>
+            <div className='benefit--card__title'>{item.title}</div>
+            <div className='benefit--card__description'>{item.description}</div>
+          </div>
         </div>
       ))}
     </>
@@ -30,7 +35,7 @@ BenefitCard.defaultProps = {
       description: 'MetaTrader 4 & MetaTrader 5.'
     },
     {
-      icon: <RiLayoutFill />,
+      icon: <BiTime />,
       title: 'Weekend Positions',
       description: 'Overnight and weekend traders are welcomed.'
     }

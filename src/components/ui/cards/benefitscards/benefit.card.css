@@ -1,0 +1,16 @@
+.benefit--card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--lightGrey);
+  border-radius: 10px;
+}
+
+.benefit--card__title {
+  font-size: var(--fontSizeMedium)
+}
+
+.benefit--card__description {
+  color: gainsboro;
+}
