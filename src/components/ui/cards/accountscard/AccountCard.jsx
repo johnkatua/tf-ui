@@ -57,36 +57,6 @@ const AccountCard = ({ data }) => {
               </>
             ))}
           </div>
-          {/* <div>
-            {item.item2.map((item) => (
-              <>
-                <div>
-                  {item.phase1.map((item) => (
-                    <div>
-                      Trading Period <div>{item.tradingPeriod}</div>
-                      Max Daily Loss <div>{item.maxDailyLoss}</div>
-                      Max Overall Loss <div>{item.maxOverallLoss}</div>
-                      <div></div>
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  {item.phase2.map((item) => (
-                    <div>
-                      {item.value}
-                    </div>
-                  ))}
-                </div>
-                <div>
-                  {item.phase3.map((item) => (
-                    <div>
-                      {item.value}
-                    </div>
-                  ))}
-                </div>
-              </>
-            ))}
-          </div> */}
         </>
       ))}
     </>

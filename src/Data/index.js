@@ -227,56 +227,10 @@ export const accountData = [
           },
           {
             name: 'Refundable Fee',
-            // phase1: '',
-            phase2: 'john',
-            // phase3: ''
+            phase2: 'Single Payment of: $89',
           },
         ]
       }
-      // {
-      //   phase1: [
-      //     {
-      //       tradingPeriod: '30 days'
-      //     },
-      //     {
-      //       maxDailyLoss: '$500'
-      //     },
-      //     {
-      //       maxOverallLoss: '$1000'
-      //     },
-      //     {
-      //       profitTarget: '$800'
-      //     },
-      //   ],
-      //   phase2: [
-      //     {
-      //       tradingPeriod: '60 days'
-      //     },
-      //     {
-      //       maxDailyLoss: '$500'
-      //     },
-      //     {
-      //       maxOverallLoss: '$1000'
-      //     },
-      //     {
-      //       profitTarget: '$400'
-      //     }
-      //   ],
-      //   phase3: [
-      //     {
-      //       tradingPeriod: 'indifinite'
-      //     },
-      //     {
-      //       maxDailyLoss: '$500'
-      //     },
-      //     {
-      //       maxOverallLoss: '$1000'
-      //     },
-      //     {
-      //       profitTarget: 'x'
-      //     }
-      //   ]
-      // }
     ]
   }
 ];

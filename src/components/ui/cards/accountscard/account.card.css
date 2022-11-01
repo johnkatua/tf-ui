@@ -88,6 +88,9 @@
 
 .test--card:nth-child(5) > .test--phase1{
   flex: 1;
-  border: 2px solid;
+  border: 1px solid blue;
   text-align: center;
+  padding: 5px 0;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 255, 0.213);
 }
